@@ -70,7 +70,8 @@ body{
 .hero__bg{
   position:absolute; inset:0;
   background:
-    radial-gradient(120% 88% at 50% 24%, #fff8f1 0%, var(--paper-0) 38%, var(--paper-1) 74%, var(--paper-2) 100%);
+    linear-gradient(rgba(18,6,12,.16), rgba(18,6,12,.16)),
+    url('/birthday-selected.png') center center / cover no-repeat;
 }
 .hero__bg::after{               /* a soft warm pool of light behind the heart */
   content:""; position:absolute; left:50%; top:44%;
